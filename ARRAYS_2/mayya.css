@@ -1,0 +1,1477 @@
+/* elements, classes, id's(#), div, span,inheritance */
+/* h1{ 
+    color: aquamarine; 
+    background: orange;
+}
+h2{
+    color: violet;
+    background: green;
+}
+#uppercase{
+    text-transform: capitalize;
+}
+#lowercase{
+    text-transform: lowercase;
+}
+#black{
+    color: black;
+}
+.green{
+    color: olive;
+}
+.pink {
+    color:pink;
+}
+#missexcel{
+    background: white;
+} */
+/* .red{ 
+    color:red;
+    background:grey;
+}
+#uppercase {
+    text-transform: uppercase;
+}
+.chocolate {
+    color: chocolate;
+    background: aquamarine;
+} */
+/* div{ 
+    color:red;
+    background: aquamarine;
+}
+span{
+    color:blue;
+    background:grey
+} */
+/* body { 
+    color: blue;
+    font-family: sans-serif;
+}
+div {
+    color: chocolate;
+}
+h1 {
+    color:red;
+}
+p{
+    color:green;
+}
+span {
+    color:black;
+    font-family: monospace; */
+
+/*div{
+    color:green;
+    background:yellow;
+}
+p {
+    color:red;
+    background:black;
+}
+*/
+/*div{
+    color:orangered;
+    background: green;
+}
+p {
+    color:black;
+    background:yellow;
+}
+.blue{
+    color:blue;
+
+}*/
+/*last rule, specificitiy, universal selector(*)*/
+/* *{
+    color:chocolate;
+    background:blue;
+}
+div {
+    color:blue;
+    background: green;
+}
+p{
+    color:black;
+    background:white;
+}
+span{
+    color:aliceblue;
+    background:black;
+} */
+/* rgb colors */
+/*h1 {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(0, 0, 255);
+    background: rgb(0, 0, 0)
+}
+
+h3 {
+    color: rgb(0, 255, 0);
+    background-color: rgb(100, 100, 100);
+}
+
+#blue {
+    color: rgb(0, 0, 255);
+    background-color: rgb(250, 235, 215);
+}
+
+#orange {
+    color: rgb(255, 165, 0);
+    background-color: rgb(240, 248, 255);
+}
+
+#yellow {
+    color: rgb(255, 255, 0);
+    background-color: rgb(154, 205, 50);
+}*/
+/* rgba colors */
+/*h1 {
+    color: rgb(255, 0, 0,0.5);
+    background: rgb(255, 255, 255, 0.3);
+}
+
+h2 {
+    color: rgb(0, 0, 255, 1);
+    background: rgb(0, 0, 0)
+}
+
+h3 {
+    color: rgb(0, 255, 0, 0.7);
+    background-color: rgb(100, 100, 100,0.2);
+}
+
+#blue {
+    color: rgb(0, 0, 255,0.6);
+    background-color: rgb(250, 235, 215,0.35);
+}
+
+#orange {
+    color: rgb(255, 165, 0,0.9);
+    background-color: rgb(240, 248, 255,0.4);
+}
+
+#yellow {
+    color: rgb(255, 255, 0,0.7);
+    background-color: rgb(154, 205, 50,0.8);
+}
+body{
+    background-color:rgb(0,255,255,0.5);
+}
+div{
+    background-color: rgb(250, 235, 215,1);
+}*/
+/* hex colors */
+/*h1{
+    color: #f00;
+    background: #000000cb;
+}
+h2 {
+    color:#0f0;
+    background:#fff;
+}
+h3 {
+    color:#00f;
+    background:#faebd786;
+}
+h4 {
+    color:#ffff00;
+    background:#808080;
+}
+h5 {
+    color:#7c0080;
+    background:#7fffd4aa;
+}*/
+/* font-size, width, height, pixels */
+/* h1{
+    
+    font-size: 150px;
+    width: 400px;
+    height: 500px;
+    color: blue;
+    background: black;
+} */
+/* Percent Values - Relative */
+/* .outer { 
+    width:500px;
+    height:500px;
+    background-color:green;
+}
+.inner {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+.ininner {
+    width: 150%;
+    height: 50%;
+    background-color: blue;
+}
+*/
+/* em - relative depends on parent
+1em = 16px (depends upon the dafault browser style
+   1em = base value */
+/* div {
+    font-size: 40px;
+}
+#relative {
+    font-size: 2em;
+    color:rgb(223, 20, 209);
+}
+#absolute {
+    font-size: 32px;
+    color: blue;
+}*/
+/* rem - relative depends on root;
+    1rem = 16px default browser style; */
+/*html {
+    font-size: 32px;
+}
+div {
+    font-size: 16px;
+}
+.relative{ */
+/* font-size: 4em */
+/*font-size: 2rem;
+color: blue;
+}
+.absolute{
+    font-size: 64px;
+}*/
+/*div{
+    font-size: 20px;
+}
+.relative{
+    font-size: 2rem;
+}
+.absolute{
+    font-size: 32px;
+}*/
+/* vh-height-percent of the screen
+   vw-widht-percent of the screen */
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width:50vw;
+    height:50vh;
+    background:red;
+}
+.banner{
+    width:100vw;
+    height:100vh;
+    background:blue;
+}*/
+/* calc()
+permath math operationss (+,-,*,/...) 
+mix and match values*/
+/**{
+    margin:0;
+}
+#navbar{
+    color:blue;
+    background-color:red;
+    font-size:3rem;
+    height:100px;
+}
+#banner{
+    background:green;
+    min-height:calc(100vh - 100px);
+}*/
+/* font-size & font-family */
+/*body{
+    font-family: "Roboto", sans-serif;
+}
+.par_1 {
+    font-family: "yeseteryear", cursive;;
+}*/
+/* generic font-family */
+/*.par_2 {
+font-family:Arial, Helvetica, sans-serif;
+}*/
+/* font-weight and font-style */
+/*body{
+    font-weight: 900;
+    font-style: italic;
+}
+#heading_1{
+    font-weight: bold;
+    font-style: normal;
+}
+.par_1{ 
+    font-weight: bolder;
+    font-style: normal; 
+}
+#heading_2{
+    font-weight: 700;
+    font-style: initial
+}
+.par_2{
+    font-weight: lighter;
+    font-style: inherit;
+}*/
+/*text-align and text-indent*/
+/*body{
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+#heading_1{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+#heading_2{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.par_1{
+    text-align:left;
+    text-indent: 2rem;
+}
+.par_2{
+    text-align: right;
+    text-indent: 2rem;
+}*/
+/* line-height,
+letter-spacing,
+word-spacing,
+text-transform,
+text-decoration  */
+/* body{
+    text-transform: capitalize;
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+}
+#head_1{
+    text-decoration: line-through;
+}
+.par_1{
+    line-height: 0.5em;
+    text-transform: lowercase;
+}
+#head_2{
+    text-decoration: overline;
+}
+.par_2{
+    letter-spacing:5px;
+    text-transform: uppercase;
+}
+#head_3{
+    text-decoration: underline;
+}
+.par_3{
+    word-spacing: 15px;
+    text-transform: capitalize;
+} */
+/* #head_1{
+    background-color: aquamarine;
+    color: violet;
+    /* padding-left:10px;
+    padding-right:20px;
+    padding-top:30px;
+    padding-bottom:40px;
+ */
+/* CSS BOX MODEL:
+ padding, margin, border; */
+/*#head_1{
+ padding: 30px 20px 40px 10px;    */
+/*  margin-top:10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;   */
+/* margin: 30px 20px 30px 20px ;
+border-style: solid;
+border-width: 10px;
+border-color: yellow; }
+.par_1{
+    color:blue;
+    font-size: 40px;
+    background-color: red;
+    padding:20px; 
+    margin:20px;*/
+/* border-top-style: dashed;
+    border-top-color: black;
+    border-top-width: 10px; */
+/* border: 10px solid black;  
+} */
+/* border-radius, negative margin; */
+/* #head_1{
+    color: blue;
+    background-color: red;
+    border: 10px  solid black ;
+    border-radius:  100px;
+    margin-bottom:-20px;
+}
+.par_1 {
+    color:black;
+    background-color: green;
+    border: 10px solid yellow;
+    border-radius: 25px;
+    margin-top: -20px;
+} */
+/* outline,offset; */
+/* outline, offset; */
+/*a{
+color: blue;
+font-size: 20px;
+text-transform: uppercase;
+text-decoration: none;
+background-color: green;
+padding: 2px;
+cursor: pointer;
+margin: 10px 10px 10px 10px;
+}
+#one{
+width:100px;
+display: inline;
+border: 4px solid red;
+}
+#two{
+width: 150px;
+margin: 40px;
+display: block;
+outline:4px solid red;
+outline-offset: -5px;
+}
+ */
+/* Default Display Property:
+    Block-Alaways starts a new line and takes full width\
+    Inline-Doesn't start a new line and only take up as much as content space; */
+
+/* a{
+    text-decoration: none;
+}
+.block_element{
+    color: black;
+    background-color: red;;
+    display: inline;
+}
+.inline_element{
+    color: green;
+    background-color: orange;
+    display: block;
+}    */
+/* Horizontal centering */
+/* body{
+    text-align: center;
+}
+a {
+text-decoration: none;
+}
+
+.block_element {
+color: black;
+background-color: red;
+width: 150px;
+/* margin: 20px auto;
+ */
+/* margin-left:auto;
+margin-right:auto;
+}
+.inline_element {
+color: green;
+background-color: orange;
+} */
+/* Block: Top Bottom margin respected by browser\
+Inline: Top Bottom margin not respected by browser\
+Mobile Navbar\
+list-style-type: property\
+Descendent selectors */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align: center;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+text-decoration: none;
+text-transform:capitalize;
+letter-spacing: 2px;
+background-color: black;
+color: orange;
+padding: 5px; 
+width: 200px;
+display: block;
+margin: 10px;
+} */
+/* inline-block */
+/* a{
+    color:blue;
+    background-color: red;
+    font-size:20px;
+    padding:10px;
+    display:inline-block;
+    margin:25px 75px;
+} */
+/* box-sizing:border-box */
+/* *{
+    margin:0;
+    padding:0;
+    /* box-sizing:border-box; */
+/* }
+.box_1,.box_2,.box_3 {
+    width:150px;
+    height:200px;
+    color:white;
+}
+.box_1{
+    background-color: red;
+    box-sizing: border-box;
+    padding-bottom:10px;
+    margin-bottom:10px;
+
+    
+}
+.box_2{
+    background-color: green;
+}
+.box_3{
+    background-color: blue;
+} */
+/*display:none;
+opacity:0;
+visibility:hidden; */
+/* .display_none{
+    background-color: blue;
+    display: none;
+}
+.opacity_0{
+    background-color: blue;
+    width:150px;
+    opacity: 0;
+}
+.opacity_5{
+    background-color: blue;
+        width: 150px;
+        opacity: 0.5;
+    }
+
+.opacity_1 {
+    background-color: blue;
+    width: 150px;
+    opacity: 1;
+}
+
+.visibility_hidden{
+    background-color: blue;
+        width: 150px;
+        visibility: hidden;
+    }  */
+    /* background-size;
+    background-position;
+    background-repeat;
+    background-attachment; */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    color:blue;
+    font-size: 60px;
+    min-height: 1000px;
+    display:flex;
+    justify-content: center;
+    #justigy-content: space-between;
+    #justigy-content: space-evenly;
+    #flex-wrap: nowrap/wrap..
+    align-items: center;
+    text-align: center;
+
+    /* height: 200px; */
+/* } */
+/* #background_img_1{
+    background: url("./Css images/css_img_1.jpeg");
+    background-repeat: no-repeat;
+    /* background-repeat:round; */
+    /* background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */ 
+/* it follows last rule order  */
+/* } */
+/* #background_img_2{ 
+    background: url("./Css images/css_img_2.jpeg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: round;
+    background-repeat: no-repeat; 
+    background-position: center; */
+    /* background-size: cover;
+    background-size: contain; */
+    /* background-position: center;
+    background-position: bottom;
+    background-position: right;
+    background-position: left;
+    background-position: top; */
+    /* background-size: cover; */
+    /* background-position: 50% 25%; 
+    */
+    /* background-size has two values.. they are cover and contain */
+    /* background-position   */ 
+    /* border: 2px solid red; */
+    /* background-attachment: fixed; */
+/* } */
+/* #background_img_3 {
+    background: url("./Css images/css_img_3.jpeg");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-size: cover; 
+    background-position: center;
+    background-attachment:fixed;
+} */  
+/* linear gradient */
+/* div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.one{
+    background: linear-gradient(red, green);
+}
+.two{
+    background: linear-gradient(to bottom, red, green);
+}
+.three{
+    background: linear-gradient(to top, red, green);
+}
+.four{
+    background: linear-gradient(to right, red, green);
+}
+.five{
+    background: linear-gradient(to left, red, green);
+}
+.six {
+    background: linear-gradient(150deg, red, green);
+    }
+.seven{
+    background:linear-gradient(to bottom right, red, green);
+}
+.eight{
+    background: linear-gradient(315deg, red, green);
+}
+.nine {
+    background: linear-gradient(to top left,  red, green);
+}
+.ten {
+    background: linear-gradient( rgb(255,0,0), rgb(0,255,0));
+}
+.eleven {
+    background: linear-gradient( rgba(255,0,0,1),
+        rgba(0,255,0,0));
+} */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+div{
+    min-height: 800px;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+.banner{
+    background: url("./Css images/css_img_4.jpeg") center/cover no-repeat fixed;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    */
+/* } */ 
+/* .header{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1   )), url("./Css images/css_img_5.jpeg")   center/cover no-repeat fixed;
+
+}
+.colorzilla{ */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cfdbe9+0,3a7ec2+24,6196c7+48,61c5c7+58,4296d6+63,4cb4f0+75,3a87c2+84,26528c+100 */
+    /* background: rgb(207, 219, 233); */
+    /* Old browsers */
+    /* background: -moz-linear-gradient(top, rgba(207, 219, 233, 1) 0%, rgba(58, 126, 194, 1) 24%, rgba(97, 150, 199, 1) 48%, rgba(97, 197, 199, 1) 58%, rgba(66, 150, 214, 1) 63%, rgba(76, 180, 240, 1) 75%, rgba(58, 135, 194, 1) 84%, rgba(38, 82, 140, 1) 100%);
+    /* FF3.6-15 */
+    /* background: -webkit-linear-gradient(top, rgba(207, 219, 233, 1) 0%, rgba(58, 126, 194, 1) 24%, rgba(97, 150, 199, 1) 48%, rgba(97, 197, 199, 1) 58%, rgba(66, 150, 214, 1) 63%, rgba(76, 180, 240, 1) 75%, rgba(58, 135, 194, 1) 84%, rgba(38, 82, 140, 1) 100%); */
+    /* Chrome10-25,Safari5.1-6 */
+    /* background: linear-gradient(to bottom, rgba(207, 219, 233, 1) 0%, rgba(58, 126, 194, 1) 24%, rgba(97, 150, 199, 1) 48%, rgba(97, 197, 199, 1) 58%, rgba(66, 150, 214, 1) 63%, rgba(76, 180, 240, 1) 75%, rgba(58, 135, 194, 1) 84%, rgba(38, 82, 140, 1) 100%); */
+    /* background-attachment: fixed; */ 
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* }*/
+/*float and clear*/
+/* img{
+    height:150px;
+    float: right;
+}
+p {
+    clear: right;
+} */
+/* 3-coloumn layout*/
+/* * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    float:left;
+    height: 250px;
+    width: 33.33%
+}
+#one{
+    background-color: red;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: chocolate;
+}
+#five{
+    clear: both ;
+} */
+/* relative, absolute and fixed positions */
+/* button {
+    color: red;
+    background-color: grey;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+} */
+/* div{
+    border: 2px solid red;
+    padding: 2px;
+    margin:20px; 
+    background-color: blue;*/
+    /* position: static ; */
+    /* position: relative;*/
+/* }  */
+/* .par_1{
+    background-color: orange;
+    text-align: center; */
+    /* position: relative; */
+    /* top: 50px;
+    left: 50%; */
+    /* bottom:20px;
+    right:50%; */
+
+/* } */
+/* .par_2{
+    background-color: aqua;
+    text-align: left; */
+    /* position: relative; */
+/* }
+#special{
+    background-color: antiquewhite;
+    font-size: 40 px; 
+    position: absolute; */
+    /* bottom: 100%; */
+    /* left: 100%; */
+    /* top: 50%;
+    right:50%;
+}  */
+/* Media Queries;
+Responsive Design;
+Style Elements On Different Screen Sizes;
+min-width: Starting from;
+max-width: Up to; */
+/* body{
+    background: grey;
+}
+div{
+    margin: 30px;
+    background-color: aqua;
+}
+h1{
+    color:red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+Certain types of motion-based animations can cause discomfort for some users. In particular,
+people with vestibular disorders have sensitivity to certain motion triggers. The @media at-rule has a media feature called prefers-reduced-motion to set CSS based on the user's preferences. It can take one of the following values:
+
+
+reduce no-preference @media (feature: value) {
+    selector {
+        styles
+    }
+}
+@media screen  and (min-width: 576px)  {
+    body {
+        background: antiquewhite;
+        }
+    
+        div {
+        margin: 40px;
+        background-color: aquamarine;
+        }
+    
+        h1 {
+        color: blue;
+        text-align: left;
+        
+        font-size: 40px;
+        text-transform: uppercase;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: black;
+    }
+
+    div {
+        margin: 60px;
+        background-color: white;
+    }
+
+    h1 {
+        color: red;
+        text-align: left;
+        text-decoration: overline;
+        font-size: 60px;
+        text-transform: capitalize;
+    }
+} */
+/* body {
+    background: grey;
+}
+
+div {
+    margin: 30px;
+    background-color: aqua;
+    border: 4px solid yellow;
+    border-radius: 15px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        background: antiquewhite;
+        
+    }
+
+    div {
+        margin: 40px;
+        background-color: aquamarine;
+        border: 4px solid green;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: blue;
+        text-align: left;
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    }
+} */
+/* The properties or styles those which are defined in 576 pixes but in 768 pixes will not be overrided or else the properties those which are common to both 576 pixels and 768 pixels will be overrided by those of 768 pixels in case of max width; */
+/* @media screen and (max-width: 768px) {
+body {
+background: black;
+}
+
+    div {
+        margin: 60px;
+        background-color: white;
+        
+    }
+
+    h1 {
+        color: red;
+        text-align: left;
+        text-decoration: overline;
+        font-size: 60px;
+        text-transform: capitalize;
+    }
+}  */
+/* Z-index--Z-axiz 
+position: static (doesn't work) */
+/* img{
+    height: 200px;
+    width: 200px;
+    position: absolute; 
+}
+.banner{
+    height: 70vh;
+    width: 70vw;
+    margin: 20px;
+    border: 5px solid red;
+    position: relative;
+}
+#one{
+    top: 0;
+    left:0;
+    position: relative;
+    z-index: 3 ;
+} */
+/* #one {
+    top: 0;
+    left: 0;
+    position: static;
+    z-index: 3;
+} */
+/* #two{
+    top: 30px;
+    left: 30px;
+    z-index: 2 ;
+}
+#three{
+    top: 60px;
+    left: 60px;
+    z-index: 1;
+} */
+/* psuedo elements ::before and ::after content(it is possible to add pseudo elements before and after content ) but not element(it's not possible to add pseudo elements before and after element); content:' '--required;
+adding psuedo elements before and after image is no possible (img - does not work);
+ */
+/* p::before { 
+    content:  "Hello Prasanna ";
+    font-style: italic ;
+    font-weight: bold;
+    font-size: 30px;
+    color: pink;
+    display: block;
+    background-color: antiquewhite;
+}  */
+/* p::after{
+    content: "Hai SaiKiran";
+    font-style: italic ;
+    font-weight: bolder;
+    color: aqua;
+    font-size: 30px;
+    display: block;
+    background-color: antiquewhite;
+} */
+/* div{
+    width: 50vw;
+    margin: 100px auto; */
+    /* height: 500px; 
+    border: 2px solid blue; */
+
+/* } */
+/* for image adding content before and after is not possible  */
+/* img::before{
+content: "MISS U PRASANNA";
+}
+img{
+    width: 80%;
+    height: 200px;
+    display: block;
+} */
+/* div::before{
+content: "MISSING CHAT WITH YOU  PRASANNA";
+font-size: medium;
+background-color: aliceblue;
+color: yellowgreen;
+} */
+/* div{
+    position: relative;
+}
+div::before{
+    content:"";
+    border: 2px solid grey ;
+    box-sizing: border-box;
+    width: 80%;
+    position: absolute;
+    height: 200px;
+    top:-40px;
+    left:-40px;
+    z-index: -2;
+    transition: all 0.5s linear;
+}
+div::after {
+    content: "";
+    background-color: grey; */
+    /* box-sizing: border-box; */
+    /* width: 80%;
+    position: absolute;
+    height: 200px;
+    top: -20px;
+    left: -20px;
+    z-index:-1;
+    transition: all 0.5s linear;
+} */
+/* div:hover::after,div:hover::before{
+    top:0;
+    left:0;
+} */
+/* h1{
+    padding: 40px;
+    text-align: center;
+    color: green;
+    display: block; 
+} */
+/*Basic Selectors*/
+/* *{
+    color: blue;
+} */
+/* Here the concept of specificity applies..! */
+/* .heading{
+color:green;
+font-size: 60px;
+text-transform: capitalize;
+}
+#heading{
+    color:red;
+    font-size: 40px;
+    text-transform: lowercase;
+    letter-spacing: 8px;
+}
+p{
+    font-size: 50px;
+    color:aqua;
+    text-transform: uppercase;
+} */
+/* Descendant and combinators */
+/* div h1{
+    color:blue;
+}
+div > h1{
+    color:red;
+}
+div > ul > li> h1{
+    color: green;
+} */
+
+/* .header > h1{
+pink;
+}*/
+/* .header > h1 {
+    color: black;
+}
+.header > h1 {
+    color: purple;
+} */
+/* ::first-line; ::first-letter  */
+/* p::first-line{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p::first-letter{
+    font-size: xx-large;
+    font-weight: bolder; 
+}*/
+/* :hover */
+/* p:hover{
+    color: green;
+}
+.header:hover{
+    color:red;
+}
+a{
+    text-decoration: none; 
+} */
+/* :link; :visited; :hover; :active */
+/* a:link{
+    color:blue;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:chartreuse;
+}
+a:active{
+    color:yellow;
+} */
+/* :root = root element of the document;
+html element; 
+css styles; */
+/* :root{
+    color:blue;
+    /* font-size: 200%;*/
+/* }  */
+/* .absolute{
+color: green;
+font-size: 24px;
+}
+.responsive{
+    color: chocolate;
+    font-size:1.5rem;
+} */ 
+/* transform: translate();/rotate():/scale();/skew() */
+/* div{
+    display: inline-block;
+    background-color:grey;
+    width: 200px;
+    height:200px;
+    margin: 30px;
+} */
+/* #one{
+    background-color: antiquewhite; */
+    /* transform: translateX(100px); */
+    /* transform: translate(40px); */
+    /* transform: translate(40px, 40px) */
+    /* transform: translateZ(100px) =(not working) */ 
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: scaleZ(1.5); */
+    /* transform: scale(1.5);*/
+    /* transform: skewX(-30deg); */
+    /* transform: translate(500px,1000px); */
+/* }
+#two{
+    background-color:aqua; */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: rotate(45deg); */
+    /* rotateZ and rotate both are same */
+    /* scale:(1.5, 1.5); */
+    /* transform: skewY(-30deg); */
+/* }
+#three{
+    background-color: chartreuse; */
+    /* transform: skewX(100px); */
+    /* transform: translateX(50%); */
+/* transform: skew(75deg, -75deg); 
+}*/
+/* transition: change over time;
+transition: property;
+transition: duration; */
+/* div{
+    display: inline-block;
+    /* background:grey; */
+    /* margin:20px;
+    width: 200px;
+    height:200px;
+}
+div:hover {
+    background: aquamarine;
+}
+#one{
+    background: red;
+}
+#one:hover{
+    background: pink;
+}
+#two{
+    background: green;
+    transition-property: background, border-radius;
+    transition-duration: 1000ms; 
+}
+#two:hover {
+    background: purple;
+    border-radius: 50%;
+
+}
+#three{  */
+    /* background: blue;
+    transition-property: background, border-radius;
+    transition-duration: 3s;
+    transition-delay: 3s; */
+    /* background: aqua; */
+     /* transition short_hand */
+    /* transition: background 2s 2s, border-radius 2s 2s; */
+    /* transition: all 2s 1s;
+}
+#three:hover{
+    border-radius: 50% ;
+    background: coral;
+} */
+/* how the transition takes place;;
+transition-timing-function:
+transiton: all 3s here 5s;
+ease = default;
+ease = slow start, fast. slow end;
+linear = same speed from start to end;
+ease-in = slow-start;
+ease-out = slow-end;
+ease-in-out = slow-start, fast, slow-end; */
+/* div{
+    background-color: coral;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+div:hover{
+    transform: translateX(50%);
+    background: aqua;
+    color: white;
+    border-radius: 50%; 
+}
+.default{
+    transition-timing-function: default;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+}
+.ease {
+    transition-timing-function: ease;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+}
+.linear {
+    transition-timing-function: linear;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+}
+.ease-in {
+    transition-timing-function: ease-in;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+}
+.ease-out {
+    transition-timing-function: ease-out;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+}
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    transition: all 2s 1s;
+    transform: background, border-radius;
+} */
+/*  Transition 0 = 100%;
+ANIMATION 0 = 1%, 2%,............100% */
+/* div{
+    width: 200px; 
+    height: 150px;
+    background: antiquewhite;
+    margin: 30px;
+}
+#transition{
+    background: red ;
+    transition: all 1s linear;
+    text-align: center;
+    font-size: 40px;
+    
+}
+#transition:hover  {
+    background-color: aqua;
+    transform: translate(20px,20px);
+}
+#animation{
+    background-color: violet;
+    text-align: center;
+    font-size: 40px;
+    /* animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2; */
+    /* animation: move 5s infinite;
+}
+@keyframes move {
+    0% {
+        transform: translate(20px);
+        background-color: #7fffd4;
+    }
+    20% {
+        transform: translate(40px);
+        background-color: yellow;
+    }
+    50% {
+        transform: translate(-40px);
+        background-color: chocolate;
+    }
+    20% {
+    transform: translate(80px);
+    background-color: blue;
+    }
+    30% {
+        transform: translateY(20px);
+        background-color: green;
+    }
+} */ 
+/* div{
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+    margin: 30%
+}
+#animation{
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    background-color: aqua;
+    /* animation: move 5s; */
+    /*animation-name: move;
+    animation-duration: 5s; */
+    /* animation-iteration-count: 3; */
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: forwards;
+}
+@keyframes move {
+    30% {
+        background-color: yellow;
+        transform: translate(100px);
+        opacity: 0.25
+    }
+    50% {
+        background-color: pink;
+        transform: translate(-100px);
+        opacity: 0.75
+    }
+    100% {
+        background-color: chocolate;
+        transform: translatex(50px);
+        opacity: 0.5;
+    }
+} */
+/* CSS variables AKA Custom Properties
+hold a value and reuse it
+--varName: value
+property:var(--varName)
+scope
+:root{} === global
+element === local
+any property  */
+/* local declaration is dominant over global declaration  */
+/* :root{
+    --primaryColor: green;
+    --secondaryColor: red;
+    --tertiaryColor: blue;
+    --mainTransition: all 0.4s linear;
+}
+.heading{
+    color: var(--primaryColor);
+}
+.heading:hover{
+    color: var(--secondaryColor);
+}
+div{
+    --primaryColor: pink;
+}
+.text{
+    color:var(--secondaryColor);
+}
+.main{
+    color: var(--secondaryColor);
+}
+.main_text{
+    color: var(--primaryColor);
+}
+.another_1_heading{
+    color: var(--tertiaryColor);
+}
+.another_1_heading:hover{
+    color: aqua;
+    background: yellow;
+}
+.another_2_heading{
+    color: var(--tertiaryColor)
+} */
+/* text-shadow and box-shadow */
+/* h1{
+    text-shadow: 1px 1px 10px red;
+}
+.prasanna{
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    background: blue;
+    transition: all 2s linear;
+
+}
+.prasanna:hover{
+-webkit-box-shadow: 35px 36px 0px -7px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 35px 36px 0px -7px rgba(0, 0, 0, 0.62);
+    box-shadow: 35px 36px 0px -7px rgba(0, 0, 0, 0.62);
+} */
+/* display: flex;
+flex-direction: row,row-reverse,column, column-reverse;
+flex-wrap: nowrap,wrap
+ */
+ /* object-fit: cover; */
+ /* gap: row-gap, column-gap */
+/* class::after{
+    content: ""; */
+/* Step 25 The .sr-only text is still visible. There is a common pattern to visually hide text for only screen readers to read. This pattern is to set the following CSS properties:
+
+        position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    Use the above to define the sr-only class. */
+    /*nav>ul>li:hover {
+        background-color: #dfdfe2;
+        color: #1b1b32;
+        cursor: pointer;
+     */
+    /* display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        position: fixed:
+        top: 0;
+    } */
+    /* Remove the default styling for the list items of .answers-list,
+    and remove the unordered list padding.
+        list-style: none; */
+        /* Clicking on the navigation links should jump the viewport to the relevant section. However,
+        this jumping can be disorienting for some users. Select all elements,
+        and set the scroll-behavior to smooth.scroll-behavior: smooth; */
+/* Certain types of motion-based animations can cause discomfort for some users. In particular, people with vestibular disorders have sensitivity to certain motion triggers.
+
+The @media at-rule has a media feature called prefers-reduced-motion to set CSS based on the user's preferences. It can take one of the following values:
+
+reduce
+no-preference
+@media (feature: value) {
+selector {
+    styles
+}
+}
+Wrap the style rule that sets scroll-behavior: smooth within an @media at-rule with the media feature prefers-reduced-motion having no-preference set as the value. */
+/* Finally,
+the navigation accessibility can be improved by providing keyboard shortcuts. The accesskey attribute accepts a space-separated list of access keys. For example: <button type="submit" accesskey="s">Submit</button>Give each of the navigation links a single-letter access key. Note: It is not always advised to use access keys,
+but they can be useful Well done. You have completed the Accessibility Quiz practice project. */
+/* Set the span[class~="sr-only"] */
+/* The CSS clip property is used to define the visible portions of an element. Set the span[class~="sr-only"] selector to have a clip property of rect(1px, 1px, 1px, 1px). The clip-path property determines the shape the clip property should take. Set both the clip-path and -webkit-clip-path properties to the value of inset(50%),
+forming the clip-path into a rectangle within the element. */
+/* white-space: nowrap */
+/* Step 42 Passed The calc() function is a CSS function that allows you to calculate a value based on other values. For example,
+you can use it to calculate the width of the viewport minus the margin of an element: .example {
+    margin: 10px;
+    width: calc(100% - 20px);
+} */
+/* font-wight: bold;normal; */
+/* Rather than having to constantly double-check you are not overwriting your earlier properties,
+you can use the !important keyword to ensure these properties are always applied,
+regardless of order or specificity.
+eg: border: 0 !important; */
+/* span:not(.sr-only) */
+/* Create a table selector to target your tables. Set the border-collapse property to collapse,
+which will allow cell borders to collapse into a single border,
+instead of a border around each cell. Also set the border property to 0 to hide the borders t */
+/* for shifting/positioning: top: -2.25rem;
+left: 0.5rem; */
+/* The key difference between tr[class="total"] and tr.total is that the first will select tr elements where the only class is total. The second will select tr elements where the class includes total. */
+/* The :nth-of-type() pseudo-selector is used to target specific elements based on their order among siblings of the same type. */
+/* alignments:
+vertical-align: top;
+text-align: right; */

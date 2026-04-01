@@ -1,0 +1,85 @@
+/*2d-arrays...
+-group of homogeneous items;
+-contiguous memory allocation;
+-declarings: int array[size];
+               (or)
+    int array[] = {item1, item2, item3,......,itemn};
+-types: 1d and multid*/
+/* multidimensional arrays...
+          --->array of arrays...
+    -->declaring: datatype array_name[size_1][size_2][size_3]......[size_n]; */
+/*2d-arrays: 
+-->declaring: datatype_name[row][col];
+-->row: number of rows in a 2d array and col: number of columns in a 2d array;
+-->row*col gives the total numbers of items in a 2d array;
+-->zero based indexing...
+-->it will be in the form of table..;
+-->accessing elements in 2d arrays: 
+   --array_name[row_num][col_num];
+--> 2d array will be like:
+--let array name be a;
+--a[3][3]:
+
+         col1      col2      col3
+         
+row1    a[0][0]   a[0][1]   a[0][2]
+
+row2    a[1][0]   a[1][1]   a[1][2]
+
+row3    a[2][0]   a[2][1]   a[2]
+
+-->methods to initialize 2d Array;
+--int array[2][3] = {1,2,3,4,5,6};
+--int array[2][3] = {{1,2,3},{4,5,6}};
+
+-->representation of 3d arrays: 
+let a[3][2][4] be a 3d array;
+    --it means 3 2d arrays of 2 rows and 4 cols;
+    --it contains 3*2*4 = 24 items;
+2d1: 
+       col1       col2       col3       col4
+    
+row1  a[0][0][0]    a[0][0][1]    a[0][0][2]   a[0][0][3]
+
+row2  a[0][1][0]    a[0][1][1]    a[0][1][2]   a[0][1][3]
+
+2d2:
+       col1       col2       col3       col4
+    
+row1  a[1][0][0]    a[1][0][1]    a[1][0][2]   a[1][0][3]
+
+row2  a[1][1][0]    a[1][1][1]    a[1][1][2]   a[1][1][3]
+
+2d3:  
+       col1       col2       col3       col4
+    
+row1 a[2][0][0]    a[2][0][1]    a[2][0][2]   a[2][0][3]
+
+row2  a[2][1][0]    a[2][1][1]    a[2][1][2]   a[2][1][3]
+-->taking 2d array as an input;
+int i,j;
+int array[rows][cols];
+for(int i=0; i<rows; i++) {
+    for(j=0; j<cols; j++) {
+        cin>>array[i][j];
+    }
+}
+eg: */
+#include <iostream>
+using namespace std;
+int main() {
+int array[3][3];
+int i,j;
+for(i=0;i<3;i++) {
+    for(j=0;j<3;j++) {
+        cin>>array[i][j];
+    }
+}
+return 0;
+}
+
+
+
+
+
+          

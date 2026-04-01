@@ -1,0 +1,162 @@
+/*time complexity:
+// no. of operations directly varies with the size of input in case of time and space complexities;
+based on the size of the input; time of executions of a program is effected..
+This analysis of time complexity based on size of input is called asymptotic anaslysis.
+Approximately in one sec; 10^8 t0 10^9 instructions or operations are executed.
+In asymptotic analysis of time complexity, we have to consider 
+the change in number of operations being conducted by the compiler upon  changing the input size and 
+such an algorithm has to be choosen so that there is no considerable change in the number of
+operations upon increasing the size of an input. Therefore it results in the best case of time complexity.
+Growth in timecomplexity of programming can be defined as the change in number of instructions (or)
+operations that would be performed by the compiler upon changing the size of an input.
+Growth varies inversely with the speed of execution of a program.
+Order of execution in the decreasing order of speed or increasing order of time:
+k > logn > n^(1/2) > n > nlogn > n^2 > n^3 > 2^n.......
+Types of time complexity analysis and their notations: 
+worse case complexity : O (big o) --> O(n);
+best case complexity : ohm_symbol (big omega) --> Ω(k) -->Ω(1);
+average case complexity : theta (big theta) --> Θ(n);
+constant time complexity eg: 
+int main() {
+    cout<<"Gowthamsaikiran"; //timecomplexity = it's a constant of 1;
+}
+worse case complexity eg: 
+//timecomplexity for traversing an array of length N;
+int main() {
+    int array[] = {1,2,3,4,5,6,7,8,9,10};
+    int n = array.size();
+    for(int i=0; i<n; i++) {
+        cout<<array[i]<<"\n"; //timecomplexity = --->O(n) here firstly --> O(3*n) and constants and 
+        coefficients can be ignored in computing timecomplexity so--> O(10);
+        return 0;
+    }
+}
+//timecomplexity for traversing two individual arrays of lengths n and m respectively;
+int main() {
+    int array_1[] = {1,2,3,4,5,6,8,9,10};
+    int array_2[] = {2,5,9,10,8,6,2,3};
+    int n = array_1.size() //9;
+    int m = array_2.size() //8;
+    for(int i=0; i<n; i++) {
+       cout<<array_1[i]<<"\n"; //timecomplexity: firstly --> O(3n+3) --> O(n); ---(1);
+    }
+    int array_1[] = {1,2,3,4,5,6,8,9,10};
+    for(int i=0; i<m; i++) {
+       cout<<array_1[m]<<"\n"; //timecomplexity: firstly --> O(3m+3) --> O(m); ---(2);
+       return 0;
+       //overall_timecomplexity: (1) + (2) == O(n+m);
+    }
+int main() {
+    int n;
+    n = 10;
+    for(int i=0; i<n; i++) {
+        for(int j=0; j<n; j++) {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }
+    return 0;
+    //timecomplexity: n+n+.............upto n times == n(n) = O(n^2);
+}
+//timecomplexity for traversing nested loops;
+int main() {
+    int n;
+    n = 10;
+    for(int i=0; i<n; i++) {
+        for(int j=0; j<i; j++) {
+            cout<<"*";
+        }
+        cout<<"\n";
+    }
+  }
+    return 0;
+    i j
+    0 0 
+    1 1 
+    2 2 
+    ...
+    ...
+    ...
+    ...
+    n-1 n-1
+    //timecomplexity: 0+1+2+3+4+5+........+n-1 == (n(n+1))/2 --> (n^2)/2  + (n/2) --> (n^2)/2 --> O(n^2);
+}
+    //timecomplexity for traversing the array and multiply the increment operator by 2;
+    int main() {
+    int n;
+    n = 5;
+    for(int i=1; i<n; i*=2) {
+    cout<<"mayya";
+    }
+    return 0;
+    i           iteration
+    1            0
+    2            1
+    4            2
+    8            3
+    16           4
+    ..           ..
+    ..           ..
+    2(k-1)       m
+    sum = 1 + 2 + 4 +........+ 2(k-1) == ((1)(2^k-1))/(k-1) --> 2^k <= n --> k<= logn;
+    timecomplexity: O(log(n));
+    }
+    //timecomplexity in transversing an array whose condition is to be less than sqrt(n);
+    #include <bits/stdc++.h>
+    int main() {
+        int n;
+        for(int i=1; i<n; i++) {
+            for(j=0; j<sqrt(n); j++) {
+                cout<<"*";
+            }
+            cout<<"/n";
+        }
+        //     i == 0          1            2            3            4................n;
+        //     j == sqrt(n)   + sqrt(n)   + sqrt(n)  +   sqrt(n)   +  sqrt(n) ......... + sqrt(n) == n(sqrt(n));
+        //     timecomplexity ==  O(n(sqrt(n)));
+        return 0;
+    }
+    int main() {
+        
+    }
+#space complexity: It is defined as the extra auxilary space required by the algorithm apart from input and 
+                  output during the course of execution (in ram) means using asymptotic analysis if there is any change 
+                  in size of the input of an algorithm or data structure, there occurs a change in the size of the space; 
+                  so that, that space change is defined as to be space complexity  ;
+//time and space complexity in getting nth term in fibonacci sequence;
+//worst time space complexity;
+int main() {
+    int array[n+1];
+    int array[0] = 0; 
+    int array[1] = 0;
+    for(int i=2; i<=n+1; i++) {
+        array[i] = array[i-1]+array[i-2];
+    }
+    cout<<array[n];
+    return 0;
+    //timecomplexity : O(n);
+    //spacecomplexity: O(n);
+}
+//best time space complexity;
+int main() {
+    int n;
+    int a = 0;
+    int b = 1;
+    int c;
+    if (n==0 && n==1) {
+        cout<<n; 
+    }
+    for(int i=1; i<n; i++) {
+       c = a + b;
+       a = b;
+       b = c;
+       
+    }
+    cout<<c;
+    return 0;
+    //timecomplexity : O(n);
+    //spacecomplexity: O(1) --> constant;
+}
+
+*/
+
